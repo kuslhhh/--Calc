@@ -1,0 +1,56 @@
+#title{
+    font-family: poppins;
+    text-align: center;
+    color: black;
+    font-size: 6vw;
+}
+
+#boxes{
+    align-items: center;
+    text-align: center;
+}
+
+input{
+    width: 50vw;
+    height: 8.2vw;
+    padding: 12px 20px;
+    margin: 8px 0px;
+    box-sizing: border-box;
+    border: 2px solid grey;
+    outline: none;
+    transition: color 1s, border 1s;
+    display: inline;
+    text-align: center;
+    font-size: 5vw;
+    color: rgb(44, 44, 44);
+    font-family: 'poppins';
+    padding: 1.2px;
+
+}
+
+::placeholder{
+    font-size: 5vw;
+    color: rgb(128, 128, 128);
+    font-family: 'poppins';
+    padding: 5px;
+    transition: color 1s;
+
+}
+
+input:focus::placeholder{
+    color: rgb(170, 170, 170);
+}
+
+input:focus{
+    border: 3px solid rgb(44, 44, 44);
+    color: rgb(44, 44, 44);
+
+}
+
+#answer{
+    margin: 0;
+    font-family: 'poppins';
+    font-size: 8vw;
+    color: whitesmoke;
+    transition: color 0.7s;
+}
